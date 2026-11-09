@@ -61,8 +61,6 @@ cat-clicker-game/
 
 Вся графика для игры была нарисована в Figma. Подробный процесс создания, код и объяснение логики описаны в файле **[about/how_was_made.md](about/how_was_made.md)**.
 
-Макеты в Figma: [Ссылка на проект](https://www.figma.com/design/XD7V6qreXn8q2WpRB7qBi4/Cat-Clicker)
-
 ---
 *Сделано с любовью к котикам :3*
 
