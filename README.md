@@ -1,32 +1,35 @@
-![Старт](about/cover.png)
+<div align="left">
+  <img src="about/cover.png" width="300">
+  <h1>🐱 Cat Clicker</h1>
 
-### Запуск игры
-#### Запуск готового `.exe` файла (для игроков) 
+  ![Python Version](https://img.shields.io/badge/Python-3.12-blue)
+  ![License](https://img.shields.io/badge/License-MIT-green)
+  ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+</div>
 
-1. Перейдите в раздел **Releases** (Релизы) справа на странице репозитория
-2. Скачайте последний ZIP-архив
-3. Распакуйте архив в любую удобную папку
-4. Запустите файл **`Cat Clicker.exe`**
+> [!IMPORTANT]
+> **Запуск готового `.exe` файла (для игроков)**
+> 1. Перейдите в раздел **Releases** (Релизы) справа на странице репозитория
+> 2. Скачайте последний ZIP-архив и распакуйте его в любую удобную папку
+> 3. Запустите файл **`Cat Clicker.exe`**
+> 
+> **Запуск через исходный код `main.py` (для разработчиков)**
+> ```bash
+> git clone https://github.com/krisstianeF/cat-clicker-game.git
+> ```
+> ```bash
+> cd cat-clicker-game
+> ```
+> ```bash
+> pip install -r requirements.txt
+> ```
+> ```bash
+> python main.py
+> ```
 
-#### Запуск через исходный код `main.py` (для разработчиков)
-*Требования:* Установленный Python 3.10+ и Git.
+# About
 
-```bash
-git clone https://github.com/krisstianeF/cat-clicker-game.git
-```
-```bash
-cd cat-clicker-game
-```
-```bash
-pip install -r requirements.txt
-```
-```bash
-python main.py
-```
-
-# 🐱 Cat Clicker
-
-Милая и уютная игра-кликер, в которой вам предстоит кликать, зарабатывать очки, повышать уровень и наблюдать, как ваш питомец становится счастливее! 
+Cat Clicker - это милая и уютная игра-кликер, в которой вам предстоит кликать, зарабатывать очки, повышать уровень и наблюдать, как ваш питомец становится счастливее! 
 
 В игре есть три уровня сложности (состояния): стартовое окно, процесс игры и экран победы. Достигните 40 очков, чтобы выиграть!
 
@@ -34,14 +37,13 @@ python main.py
 | :---: | :---: | :---: |
 | ![Старт](about/first_wnd.png) | ![Игра](about/main_wnd.png) | ![Победа](about/win_wnd.png) |
 
-## 🛠 Технологии и структура
+## Technology & Structure
 
 *   **Язык:** Python 3.12
 *   **Интерфейс:** Tkinter (встроенная библиотека)
 *   **Звуки:** Pygame (микшер)
 *   **Сборка:** PyInstaller
 
-### Структура проекта:
 ```text
 cat-clicker-game/
 │
@@ -57,11 +59,11 @@ cat-clicker-game/
     └── Cat Clicker.md     # Подробный отчет о создании игры
 ```
 
-## 🎨 Дизайн и создание
+## Design
 
 Вся графика для игры была нарисована в Figma. Подробный процесс создания, код и объяснение логики описаны в файле **[about/how_was_made.md](about/how_was_made.md)**.
 
-Макеты в Figma: [Ссылка на проект](https://www.figma.com/design/XD7V6qreXn8q2WpRB7qBi4/Cat-Clicker)
-
 ---
 *Сделано с любовью к котикам :3*
+
+*Графические ассеты (картинки) и звуки являются собственностью автора и не могут быть использованы в коммерческих целях без разрешения*
