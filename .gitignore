@@ -5,3 +5,12 @@ dist/
 .venv/
 _internal/
 *.exe
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
